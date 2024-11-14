@@ -14,21 +14,26 @@ namespace Calculator.Classes
         public void Somar(float num)
         {
             num = numero1 + numero2;
+            Console.WriteLine(num);
+            
         }
 
         public void Subtrair(float num)
         {
             num = numero1 - numero2;
+            Console.WriteLine(num);
         }
 
         public void Multiplicar(float num)
         {
             num = numero1 * numero2;
+            Console.WriteLine(num);
         }
 
         public void Dividir(float num)
         {
             num = numero1 / numero2;
+            Console.WriteLine(num);
         }
 
 
